@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Grand Sita Hotel Gondia</title>
+    <!-- Link to Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Link to Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-black text-white">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="flex-shrink-0">
+                <img class="h-10 w-10" src="GrandNewL.png" alt="Grand Sita">
+            </a>
+            <!-- Navigation Links -->
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="Dining.html" class="hover:text-yellow-400">Home</a></li>
+            </ul>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button class="text-white focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-b from-yellow-400 via-yellow-500 to-yellow-600 py-20 text-center">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold text-white mb-4">Get in Touch</h1>
+            <p class="text-lg text-white">Have questions or inquiries? Feel free to contact us!</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">Send Us a Message</h2>
+            <form action="#" method="POST" class="max-w-lg mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-medium">Your Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full border border-gray-300
+                        rounded-md shadow-sm focus:border-yellow-400 focus:ring focus:ring-yellow-400
+                        focus:ring-opacity-50">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 font-medium">Your Email</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full border border-gray-300
+                        rounded-md shadow-sm focus:border-yellow-400 focus:ring focus:ring-yellow-400
+                        focus:ring-opacity-50">
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <label for="message" class="block text-gray-700 font-medium">Your Message</label>
+                    <textarea id="message" name="message" rows="5" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:border-yellow-400
+                    focus:ring focus:ring-yellow-400 focus:ring-opacity-50"></textarea>
+                </div>
+                <div class="mt-6">
+                    <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6
+                    rounded-full focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50">Send
+                        Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 The Grand Sita Hotel Gondia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+
+</html>
